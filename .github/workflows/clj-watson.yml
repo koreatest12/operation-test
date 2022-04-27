@@ -40,7 +40,6 @@ jobs:
           clj-watson-tag: "v4.0.1"
           database-strategy: github-advisory
           aliases: clojure-lsp,test 
-          deps-edn-path: deps.edn
           suggest-fix: true
           output-type: sarif
           output-file: clj-watson-results.sarif
